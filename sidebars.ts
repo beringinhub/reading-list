@@ -18,7 +18,10 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Bisnis',
-          items: ['membangun-usaha-modern/intro'],
+          items: [
+            'membangun-usaha-modern/intro',
+            'personal-branding-business-leaders/intro',
+          ],
         },
         {
           type: 'category',
