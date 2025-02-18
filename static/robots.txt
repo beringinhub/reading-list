@@ -1,0 +1,21 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /docs/
+Allow: /newsletters
+Disallow: /docs/resources/
+Disallow: /search/
+
+# Block AI crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# Sitemap & Host
+Sitemap: https://oasis.beringinhub.com/sitemap.xml
+Host: https://oasis.beringinhub.com 
