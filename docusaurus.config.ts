@@ -44,47 +44,6 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: [
-            '/docs/resources/**',
-          ],
-        },
-        robotsTxt: {
-          policies: [
-            {
-              userAgent: '*',
-              allow: [
-                '/',
-                '/docs/',
-                '/newsletters',
-              ],
-              disallow: [
-                '/docs/resources/',
-                '/search/',
-              ],
-            },
-            {
-              userAgent: 'GPTBot',
-              disallow: ['/'],
-            },
-            {
-              userAgent: 'ChatGPT-User',
-              disallow: ['/'],
-            },
-            {
-              userAgent: 'CCBot',
-              disallow: ['/'],
-            },
-          ],
-          sitemap: 'https://oasis.beringinhub.com/sitemap.xml',
-          host: 'https://oasis.beringinhub.com',
-        },
-        gtag: {
-          trackingID: 'G-XXXXXXXXXX',
-          anonymizeIP: true,
-        },
       } satisfies Preset.Options,
     ],
   ],
