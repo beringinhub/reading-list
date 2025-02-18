@@ -48,6 +48,9 @@ Berikut adalah beberapa buku yang telah kami pilih untuk dibaca:
 - [**Cara Menulis Copywriting yang High Conversion**](./docs/belajar-copywriting/intro.md)  
   Panduan lengkap untuk penulis modern dalam menciptakan copywriting yang efektif dan menghasilkan konversi tinggi.
 
+- [**Personal Branding untuk Business Leaders**](./docs/personal-branding-business-leaders/intro.md)  
+  Panduan komprehensif untuk pemimpin bisnis dalam membangun dan mengelola personal brand yang kuat untuk meningkatkan reputasi profesional.
+
 ## 🛠️ Tech Stack
 
 - [Docusaurus](https://docusaurus.io/) - Static site generator
