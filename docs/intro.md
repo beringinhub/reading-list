@@ -23,6 +23,9 @@ Berikut adalah koleksi buku-buku pilihan kami:
 - [**Membangun Usaha Modern: Panduan Praktis Startup untuk UKM**](./membangun-usaha-modern/intro.md)  
   Panduan praktis bagi pelaku UKM yang ingin memahami cara membangun dan mengelola startup modern.
 
+- [**Personal Branding untuk Business Leaders**](./personal-branding-business-leaders/intro.md)  
+  Panduan komprehensif untuk pemimpin bisnis dalam membangun dan mengelola personal brand yang kuat untuk meningkatkan reputasi profesional.
+
 ### Marketing & Komunikasi
 
 - [**Cara Menulis Copywriting yang High Conversion**](./belajar-copywriting/intro.md)  
