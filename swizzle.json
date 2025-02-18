@@ -1,0 +1,10 @@
+{
+  "swizzle": {
+    "@docusaurus/theme-classic": {
+      "Root": {
+        "actions": ["wrap"],
+        "description": "Root component for font scaling controls"
+      }
+    }
+  }
+} 
