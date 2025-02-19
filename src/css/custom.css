@@ -48,33 +48,38 @@
 /* Documentation content styles */
 .markdown {
   font-size: var(--doc-text-size);
-  line-height: 1.7;
+  line-height: 1.8;
   color: var(--ifm-font-color-base);
   max-width: 100%;
   overflow-wrap: break-word;
+  padding: 1rem;
+  background: var(--ifm-background-color);
+  border-radius: 12px;
 }
 
 .markdown h1 {
   font-size: var(--doc-h1-size);
-  margin-bottom: 2rem;
+  margin: 1rem 0 2.5rem;
+  padding-bottom: 1rem;
   letter-spacing: -0.03em;
   color: var(--ifm-heading-color);
   font-weight: 700;
+  border-bottom: 2px solid var(--ifm-color-primary-lighter);
 }
 
 .markdown h2 {
   font-size: var(--doc-h2-size);
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin: 3.5rem 0 1.5rem;
+  padding-bottom: 0.5rem;
   letter-spacing: -0.02em;
   color: var(--ifm-heading-color);
   font-weight: 600;
+  border-bottom: 2px solid var(--ifm-color-primary);
 }
 
 .markdown h3 {
   font-size: var(--doc-h3-size);
-  margin-top: 2.5rem;
-  margin-bottom: 1.2rem;
+  margin: 2.5rem 0 1.2rem;
   letter-spacing: -0.02em;
   color: var(--ifm-color-primary);
   font-weight: 600;
@@ -90,21 +95,26 @@
 }
 
 .markdown p {
-  margin: 1.2rem 0;
+  margin: 1.5rem 0;
   line-height: 1.8;
   color: var(--ifm-font-color-base);
 }
 
 .markdown ul, 
 .markdown ol {
-  padding-left: 1.5rem;
-  margin: 1rem 0;
+  padding-left: 2rem;
+  margin: 1.5rem 0;
 }
 
 .markdown li {
-  margin: 0.75rem 0;
+  margin: 0.875rem 0;
   line-height: 1.7;
   color: var(--ifm-font-color-base);
+  position: relative;
+}
+
+.markdown li::marker {
+  color: var(--ifm-color-primary);
 }
 
 .markdown a {
@@ -112,11 +122,15 @@
   text-decoration: none;
   transition: all 0.2s ease;
   font-weight: 500;
+  padding: 0.1em 0.2em;
+  margin: 0 -0.2em;
+  border-radius: 4px;
 }
 
 .markdown a:hover {
   color: var(--ifm-color-primary-darker);
-  text-decoration: underline;
+  text-decoration: none;
+  background: rgba(137, 87, 229, 0.1);
 }
 
 .markdown blockquote {
@@ -140,6 +154,7 @@
 /* Dark mode adjustments for docs */
 [data-theme='dark'] .markdown {
   --ifm-blockquote-color: rgba(255, 255, 255, 0.8);
+  background: var(--ifm-background-color);
 }
 
 [data-theme='dark'] .markdown a {
@@ -148,11 +163,14 @@
 
 [data-theme='dark'] .markdown a:hover {
   color: var(--ifm-color-primary-lightest);
+  background: rgba(137, 87, 229, 0.2);
 }
 
 /* Main content wrapper */
 .main-wrapper {
   padding: 2rem 1rem;
+  min-height: 100vh;
+  background: var(--ifm-background-color);
 }
 
 @media (min-width: 997px) {
@@ -165,7 +183,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 /* Doc page container */
@@ -173,6 +191,7 @@
   display: flex;
   width: 100%;
   flex-grow: 1;
+  background: var(--ifm-background-color);
 }
 
 /* Emoji styling */
@@ -534,6 +553,32 @@ th, td {
     display: block;
     overflow-x: auto;
   }
+
+  .markdown {
+    padding: 0.5rem;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .markdown h1 {
+    margin: 0.5rem 0 2rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .markdown h2 {
+    margin: 2.5rem 0 1.25rem;
+  }
+
+  .markdown h3 {
+    margin: 2rem 0 1rem;
+  }
+
+  .markdown ul,
+  .markdown ol {
+    padding-left: 1.5rem;
+  }
 }
 
 /* Print styles */
@@ -658,6 +703,89 @@ th, td {
     height: calc(100vh - 80px);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .navbar-sidebar__items--show-secondary {
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 1rem 1.25rem 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--ifm-navbar-background-color);
+    z-index: 15500 !important;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navbar-sidebar__items--show-secondary.navbar-sidebar__items--hidden {
+    transform: translateX(100%);
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .navbar-sidebar__items--show-secondary .menu__list {
+    height: auto;
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem 0 2rem;
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Improve back navigation visibility */
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__back {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: -1rem -1.25rem 1rem;
+    background: var(--ifm-navbar-background-color);
+    border-bottom: 1px solid rgba(137, 87, 229, 0.1);
+    font-weight: 500;
+    color: var(--ifm-navbar-link-color);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .navbar-sidebar__items--show-secondary .navbar-sidebar__back:before {
+    content: "←";
+    margin-right: 0.5rem;
+    font-size: 1.2em;
+  }
+
+  /* Ensure proper scrolling for nested items */
+  .navbar-sidebar__items--show-secondary .menu__list-item-collapsible {
+    margin: 0.5rem 0;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar-sidebar__items--show-secondary .menu__link {
+    padding: 0.75rem 1rem;
+    margin: 0.25rem 0;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Dark mode adjustments */
+  [data-theme='dark'] .navbar-sidebar__items--show-secondary {
+    background: rgba(30, 22, 51, 0.98);
+  }
+
+  [data-theme='dark'] .navbar-sidebar__items--show-secondary .navbar-sidebar__back {
+    background: rgba(30, 22, 51, 0.98);
+    border-bottom-color: rgba(137, 87, 229, 0.2);
   }
 
   /* Menu styling improvements */
