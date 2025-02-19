@@ -468,4 +468,37 @@ th, td {
 /* Ensure logo is visible in dark mode */
 [data-theme='dark'] .navbar__logo img {
   filter: brightness(1.1);
+}
+
+/* Fix sidebar z-index on mobile */
+@media (max-width: 996px) {
+  .navbar-sidebar {
+    z-index: 15000 !important;
+  }
+
+  .navbar-sidebar__backdrop {
+    z-index: 14900 !important;
+  }
+
+  .navbar-sidebar__brand {
+    z-index: 15100 !important;
+  }
+
+  .navbar-sidebar__items {
+    z-index: 15000 !important;
+  }
+
+  .navbar-sidebar__close {
+    z-index: 15200 !important;
+  }
+
+  .theme-doc-sidebar-container {
+    position: fixed !important;
+    top: var(--ifm-navbar-height);
+    z-index: 14800 !important;
+  }
+
+  .navbar {
+    z-index: 15000 !important;
+  }
 } 
