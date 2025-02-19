@@ -107,8 +107,8 @@ const config: Config = {
     },
     docs: {
       sidebar: {
-        hideable: true,
-        autoCollapseCategories: true,
+        hideable: false,
+        autoCollapseCategories: false,
       },
     },
     footer: {
@@ -155,6 +155,10 @@ const config: Config = {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
+    },
+    // Mobile configuration
+    mobile: {
+      autoCollapseCategories: false,
     },
   } satisfies Preset.ThemeConfig,
 };
