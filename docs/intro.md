@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Selamat datang di **Reading List** yang berisi rekomendasi buku berkualitas untuk membantu Anda mengembangkan diri, baik dalam produktivitas maupun dalam membangun usaha!
 
+> 💡 **Tips**: Maksimalkan pembelajaran Anda dengan menggunakan AI assistant untuk membantu memahami dan mengimplementasikan konsep-konsep dari buku-buku ini. [Pelajari cara mengoptimalkan pembelajaran dengan AI](https://apps.beringinhub.com/id/products/assistant)
+
 ## 📖 Daftar Buku
 
 Berikut adalah koleksi buku-buku pilihan kami:
@@ -47,6 +49,26 @@ Membaca adalah salah satu cara terbaik untuk:
 - Menemukan solusi untuk tantangan
 
 Di dunia yang berubah dengan cepat ini, buku-buku pilihan kami menyediakan wawasan berharga dan strategi praktis yang dapat langsung diterapkan.
+
+## 🛠️ Tools & Resources
+
+Untuk membantu Anda mengimplementasikan pengetahuan dari buku-buku ini secara efektif, kami menyediakan beberapa tools dan resources:
+
+### 1. AI Learning Assistant
+Gunakan [BeringinHub Assistant](https://apps.beringinhub.com/id/products/assistant) untuk:
+- Memahami konsep kompleks dengan lebih mudah
+- Mendapatkan contoh implementasi praktis
+- Mengajukan pertanyaan spesifik tentang materi
+- Membuat rangkuman personal sesuai kebutuhan Anda
+
+### 2. Implementation Guides
+Setiap buku dilengkapi dengan panduan implementasi yang dapat membantu Anda menerapkan konsep-konsep yang dipelajari dalam situasi nyata.
+
+### 3. Community Discussion
+Bergabung dengan komunitas pembaca untuk:
+- Berbagi pengalaman implementasi
+- Mendiskusikan konsep-konsep kunci
+- Mendapatkan insight dari sesama pembelajar
 
 ## 🚀 Kontribusi
 
