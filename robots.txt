@@ -18,4 +18,9 @@ Disallow: /
 
 # Sitemap & Host
 Sitemap: https://oasis.beringinhub.com/sitemap.xml
-Host: https://oasis.beringinhub.com 
+Host: https://oasis.beringinhub.com
+
+# Disallow admin and development paths
+Disallow: /admin/
+Disallow: /dev/
+Disallow: /search/ 
