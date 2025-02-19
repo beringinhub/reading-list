@@ -27,7 +27,10 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Marketing',
-          items: ['belajar-copywriting/intro'],
+          items: [
+            'marketing-intelligent/intro',
+            'belajar-copywriting/intro'
+          ],
         },
       ],
     },

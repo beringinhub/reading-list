@@ -45,6 +45,9 @@ Berikut adalah beberapa buku yang telah kami pilih untuk dibaca:
 - [**Mengoptimalkan AI Assistant: Panduan Lengkap untuk Produktivitas Digital**](./docs/mengoptimalkan-ai-assitant/intro.md)  
   Panduan komprehensif tentang cara mengoptimalkan AI assistant untuk meningkatkan produktivitas dan efisiensi dalam era digital.
 
+- [**Marketing Intelligence: Menggabungkan Human Touch dan AI**](./docs/marketing-intelligent/intro.md)  
+  Panduan lengkap tentang cara menggabungkan kecerdasan buatan dan sentuhan manusia dalam strategi pemasaran untuk hasil yang optimal.
+
 - [**Cara Menulis Copywriting yang High Conversion**](./docs/belajar-copywriting/intro.md)  
   Panduan lengkap untuk penulis modern dalam menciptakan copywriting yang efektif dan menghasilkan konversi tinggi.
 

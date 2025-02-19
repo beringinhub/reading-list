@@ -31,6 +31,9 @@ Berikut adalah koleksi buku-buku pilihan kami:
 
 ### Marketing & Komunikasi
 
+- [**Marketing Intelligence: Menggabungkan Human Touch dan AI**](./marketing-intelligent/intro.md)  
+  Panduan lengkap tentang cara menggabungkan kecerdasan buatan dan sentuhan manusia dalam strategi pemasaran untuk hasil yang optimal.
+
 - [**Cara Menulis Copywriting yang High Conversion**](./belajar-copywriting/intro.md)  
   Panduan lengkap untuk penulis modern dalam menciptakan copywriting yang efektif dan menghasilkan konversi tinggi.
 
