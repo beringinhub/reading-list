@@ -26,6 +26,9 @@ Berikut adalah koleksi buku-buku pilihan kami:
 - [**Personal Branding untuk Business Leaders**](./personal-branding-business-leaders/intro.md)  
   Panduan komprehensif untuk pemimpin bisnis dalam membangun dan mengelola personal brand yang kuat untuk meningkatkan reputasi profesional.
 
+- [**Sustainable Business Practices: Panduan Lengkap Menuju Bisnis yang Berkelanjutan**](./sustainability-business-practices/intro.md)  
+  Panduan lengkap untuk memahami dan mengimplementasikan praktik bisnis berkelanjutan yang menguntungkan perusahaan, lingkungan, dan masyarakat.
+
 ### Marketing & Komunikasi
 
 - [**Cara Menulis Copywriting yang High Conversion**](./belajar-copywriting/intro.md)  

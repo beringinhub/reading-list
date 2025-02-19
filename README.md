@@ -51,6 +51,9 @@ Berikut adalah beberapa buku yang telah kami pilih untuk dibaca:
 - [**Personal Branding untuk Business Leaders**](./docs/personal-branding-business-leaders/intro.md)  
   Panduan komprehensif untuk pemimpin bisnis dalam membangun dan mengelola personal brand yang kuat untuk meningkatkan reputasi profesional.
 
+- [**Sustainable Business Practices: Panduan Lengkap Menuju Bisnis yang Berkelanjutan**](./docs/sustainability-business-practices/intro.md)  
+  Panduan lengkap untuk memahami dan mengimplementasikan praktik bisnis berkelanjutan yang menguntungkan perusahaan, lingkungan, dan masyarakat.
+
 ## 🛠️ Tech Stack
 
 - [Docusaurus](https://docusaurus.io/) - Static site generator

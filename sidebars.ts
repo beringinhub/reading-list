@@ -21,6 +21,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'membangun-usaha-modern/intro',
             'personal-branding-business-leaders/intro',
+            'sustainability-business-practices/intro',
           ],
         },
         {
