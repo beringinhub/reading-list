@@ -45,15 +45,21 @@
   --doc-small-text-size: calc(0.9rem * var(--doc-text-scale));
 }
 
+/* Documentation content styles */
 .markdown {
   font-size: var(--doc-text-size);
   line-height: 1.7;
+  color: var(--ifm-font-color-base);
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .markdown h1 {
   font-size: var(--doc-h1-size);
   margin-bottom: 2rem;
   letter-spacing: -0.03em;
+  color: var(--ifm-heading-color);
+  font-weight: 700;
 }
 
 .markdown h2 {
@@ -61,6 +67,8 @@
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   letter-spacing: -0.02em;
+  color: var(--ifm-heading-color);
+  font-weight: 600;
 }
 
 .markdown h3 {
@@ -68,6 +76,8 @@
   margin-top: 2.5rem;
   margin-bottom: 1.2rem;
   letter-spacing: -0.02em;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
 }
 
 .markdown h4 {
@@ -75,11 +85,14 @@
   margin-top: 2rem;
   margin-bottom: 1rem;
   letter-spacing: -0.01em;
+  color: var(--ifm-heading-color);
+  font-weight: 500;
 }
 
 .markdown p {
   margin: 1.2rem 0;
   line-height: 1.8;
+  color: var(--ifm-font-color-base);
 }
 
 .markdown ul, 
@@ -89,8 +102,21 @@
 }
 
 .markdown li {
-  margin: 0.5rem 0;
+  margin: 0.75rem 0;
   line-height: 1.7;
+  color: var(--ifm-font-color-base);
+}
+
+.markdown a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.markdown a:hover {
+  color: var(--ifm-color-primary-darker);
+  text-decoration: underline;
 }
 
 .markdown blockquote {
@@ -100,12 +126,65 @@
   margin: 1.5rem 0;
   padding: 1.2rem 1.5rem;
   border-radius: 8px;
+  color: var(--ifm-blockquote-color);
 }
 
 .markdown code {
   font-size: calc(var(--doc-small-text-size) * 0.95);
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
+  background: var(--ifm-code-background);
+  color: var(--ifm-code-color);
+}
+
+/* Dark mode adjustments for docs */
+[data-theme='dark'] .markdown {
+  --ifm-blockquote-color: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme='dark'] .markdown a {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .markdown a:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+/* Main content wrapper */
+.main-wrapper {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 997px) {
+  .main-wrapper {
+    padding: 3rem 2rem;
+  }
+}
+
+/* Container for doc content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Doc page container */
+.docPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* Emoji styling */
+.markdown em {
+  font-style: normal;
+}
+
+.markdown img[alt*="emoji"],
+.markdown em:first-child {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.2em;
 }
 
 /* Font Scale Controls */
