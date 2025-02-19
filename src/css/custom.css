@@ -168,14 +168,12 @@
 
 /* Main content wrapper */
 .main-wrapper {
-  padding: 2rem 1rem;
   min-height: 100vh;
   background: var(--ifm-background-color);
 }
 
 @media (min-width: 997px) {
   .main-wrapper {
-    padding: 3rem 2rem;
   }
 }
 
