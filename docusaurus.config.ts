@@ -50,12 +50,26 @@ const config: Config = {
           ignorePatterns: ['/docs/resources/**'],
           filename: 'sitemap.xml',
         },
+        // Add SEO plugin configuration
+        gtag: {
+          trackingID: 'G-XXXXXXXXXX', // Replace with your Google Analytics tracking ID
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    metadata: [
+      {name: 'og:title', content: 'BeringinHub Reading Space - Empowering Builders Through Knowledge'},
+      {name: 'og:description', content: 'Kumpulan buku berkualitas untuk membantu Anda mengembangkan diri dalam produktivitas dan membangun usaha.'},
+      {name: 'og:image', content: 'img/logo.png'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:title', content: 'BeringinHub Reading Space'},
+      {name: 'twitter:description', content: 'Kumpulan buku berkualitas untuk membantu Anda mengembangkan diri dalam produktivitas dan membangun usaha.'},
+      {name: 'keywords', content: 'buku produktivitas, buku bisnis, artificial intelligence, marketing intelligence, pengembangan diri, startup, ukm'},
+      {name: 'description', content: 'Kumpulan buku berkualitas untuk membantu Anda mengembangkan diri dalam produktivitas dan membangun usaha. Pelajari AI, marketing, bisnis, dan lebih banyak lagi.'},
+    ],
     image: 'img/logo.png',
     navbar: {
       title: 'BeringinHub Reading Space',

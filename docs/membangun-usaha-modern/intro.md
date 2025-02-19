@@ -1,3 +1,10 @@
+---
+title: Membangun Usaha Modern - Panduan Praktis Startup untuk UKM
+description: Panduan lengkap membangun dan mengelola startup modern untuk UKM. Pelajari strategi bisnis, teknologi, dan inovasi untuk kesuksesan usaha Anda.
+keywords: [startup, ukm, bisnis modern, manajemen bisnis, teknologi bisnis, inovasi bisnis, entrepreneurship]
+image: /img/logo.png
+---
+
 # Membangun Usaha Modern: Panduan Praktis Startup untuk UKM
 
 ### Pendahuluan

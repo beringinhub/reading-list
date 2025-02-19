@@ -1,3 +1,10 @@
+---
+title: Mengoptimalkan AI Assistant: Panduan Lengkap untuk Produktivitas Digital
+description: Pelajari cara mengoptimalkan penggunaan AI assistant untuk meningkatkan produktivitas dan efisiensi dalam berbagai aspek kehidupan. Panduan lengkap untuk penggunaan AI assistant yang efektif.
+keywords: [AI assistant, produktivitas, efisiensi, digital productivity, AI tools, productivity hacks, AI productivity]
+image: /img/logo.png
+---
+
 # Mengoptimalkan AI Assistant: Panduan Lengkap untuk Produktivitas Digital
 
 ### Pendahuluan

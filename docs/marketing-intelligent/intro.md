@@ -1,3 +1,10 @@
+---
+title: Marketing Intelligence - Menggabungkan Human Touch dan AI dalam Pemasaran
+description: Pelajari cara menggabungkan kecerdasan buatan (AI) dan sentuhan manusia dalam strategi pemasaran untuk hasil yang optimal. Panduan lengkap marketing intelligence untuk bisnis modern.
+keywords: [marketing intelligence, artificial intelligence, human touch marketing, strategi pemasaran, digital marketing, AI marketing]
+image: /img/logo.png
+---
+
 # Marketing Intelligence: Menggabungkan Human Touch dan AI
 
 ### Pendahuluan: Mengapa Marketing Intelligence?

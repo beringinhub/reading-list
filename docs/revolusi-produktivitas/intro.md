@@ -1,3 +1,10 @@
+---
+title: Revolusi Produktivitas - Menggabungkan Habits, AI dan Kreativitas
+description: Pelajari cara meningkatkan produktivitas dengan menggabungkan kebiasaan baik, kecerdasan buatan, dan kreativitas. Panduan lengkap untuk produktivitas di era digital.
+keywords: [produktivitas, habits, artificial intelligence, kreativitas, manajemen waktu, efisiensi kerja, digital productivity]
+image: /img/logo.png
+---
+
 # Revolusi Produktivitas: Menggabungkan Habits, AI, dan Kreativitas
 
 ### Pendahuluan

@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Reading List - Kumpulan Buku Berkualitas untuk Pengembangan Diri
+description: Temukan koleksi buku berkualitas untuk membantu Anda mengembangkan diri dalam produktivitas dan membangun usaha. Pelajari AI, marketing, bisnis, dan lebih banyak lagi.
+keywords: [buku produktivitas, buku bisnis, artificial intelligence, marketing intelligence, pengembangan diri, startup, ukm]
+image: /img/logo.png
 ---
 
 # 📚 Reading List

@@ -1,3 +1,10 @@
+---
+title: Cara Menulis Copywriting yang High Conversion - Panduan Lengkap
+description: Pelajari teknik copywriting yang efektif untuk meningkatkan konversi. Panduan praktis menulis copy yang menjual untuk berbagai platform digital.
+keywords: [copywriting, content writing, digital marketing, conversion copywriting, sales copy, marketing content, content strategy]
+image: /img/logo.png
+---
+
 # Cara Menulis Copywriting yang High Conversion: Panduan Lengkap untuk Penulis Modern
 
 ### Pendahuluan

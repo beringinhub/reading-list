@@ -1,3 +1,10 @@
+---
+title: Personal Branding untuk Business Leaders - Membangun Reputasi Profesional yang Kuat
+description: Panduan lengkap membangun dan mengelola personal brand yang kuat untuk pemimpin bisnis. Pelajari strategi personal branding yang efektif di era digital.
+keywords: [personal branding, business leader, leadership branding, professional branding, digital presence, thought leadership, executive branding]
+image: /img/logo.png
+---
+
 # Personal Branding untuk Business Leaders: Panduan Lengkap Membangun Reputasi Profesional
 
 ### Pendahuluan
