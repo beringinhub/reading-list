@@ -19,6 +19,13 @@ const config: Config = {
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
+  // Add Firebase configuration
+  customFields: {
+    firebaseConfig: {
+      measurementId: "G-LXTVNBQ0R1"
+    }
+  },
+
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
